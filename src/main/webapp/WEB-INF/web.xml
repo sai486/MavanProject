@@ -1,0 +1,27 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>MavenSer</servlet-name>
+  	<display-name>MavenSer</display-name>
+  	<description></description>
+  	<servlet-class>com.MavenSer</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Mysrevlet</servlet-name>
+  	<display-name>Mysrevlet</display-name>
+  	<description></description>
+  	<servlet-class>com.Mysrevlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>MavenSer</servlet-name>
+  	<url-pattern>/MavenSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Mysrevlet</servlet-name>
+  	<url-pattern>/Mysrevlet</url-pattern>
+  </servlet-mapping>
+</web-app>
